@@ -4,9 +4,7 @@ We compare our practical FTPL variant with existing methods under cardinality an
 
 Each round uses a weighted coverage function:
 
-$
-f_t(S)=\frac{1}{Z}\sum_{e\in\bigcup_{i\in S}C_i}w_{t,e}.
-$
+$$f_t(S)=\frac{1}{Z}\sum_{e\in\bigcup_{i\in S}C_i}w_{t,e}.$$
 
 Coverage sets are fixed. Feature-weight means move smoothly between targets with different, pairwise disjoint optimal bases. Private-feature means are 1 for target elements and 0.005 for other elements; shared features have smaller, fixed means.
 
