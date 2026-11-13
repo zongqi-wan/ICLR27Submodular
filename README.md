@@ -2,7 +2,7 @@
 
 This document describes two synthetic experiments under cardinality and graphic matroid constraints. Both use weighted coverage functions with independently randomized weights whose means drift smoothly between different target optima.
 
-The experiments use 500,000 rounds and 80 paired test seeds. The method labeled **ours** uses cumulative Gaussian Follow-the-Perturbed-Leader (FTPL) to update the fractional exchange policy. The exact practical implementation and parameters are specified below.
+The experiments use 500,000 rounds and 80 paired test seeds. The method labeled **ours** uses cumulative Gaussian Follow-the-Perturbed-Leader to update the fractional exchange policy. The exact practical implementation and parameters are specified below.
 
 ## Results and figures
 
