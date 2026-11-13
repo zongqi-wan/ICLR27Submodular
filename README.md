@@ -44,4 +44,3 @@ Mean final cumulative reward ratios:
 | Cardinality | 0.835 | 0.850 | 0.189 | — |
 | Graphic matroid | 0.804 | — | 0.290 | 0.448 |
 
-Our method uses cumulative Gaussian FTPL with a modified bandit estimator, without discounting or resets. The original theorem is not claimed for this tuned implementation. ETCG commits after exploration, so these drifting environments test adaptation beyond its stationary setting.
