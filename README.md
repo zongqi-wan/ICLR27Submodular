@@ -1,4 +1,4 @@
-Shared setting
+## Shared setting
 
 Each round uses a weighted coverage function:
 
