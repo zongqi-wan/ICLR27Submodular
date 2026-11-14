@@ -13,7 +13,7 @@ Each experiment has several pairwise disjoint target bases $B_r$. At target $r$,
 Weights are randomized independently across features and rounds:
 
 $$
-w_{t,e}=\mu_{t,e}\left[1+0.02\operatorname{clip}(G_{t,e},-3,3)\right],
+w_{t,e}=\mu_{t,e}\left[1+0.02 clip(G_{t,e},-3,3)\right],
 \qquad G_{t,e}\sim\mathcal N(0,1).
 $$
 
