@@ -49,7 +49,7 @@ Curves show cumulative reward divided by the reward of the **best fixed feasible
 | $B_1$ | 0, 6, 8, 15, 19 |
 | $B_2$ | 2, 4, 10, 13, 18 |
 
-**Compared methods:** **ours**, **OGo**, and **ETCG** with paper-prescribed exploration length $m=182$.
+**Compared methods:** **ours**, **OGo**, and **ETCG**
 
 ![Cardinality experiment](figures/cardinality.png)
 
