@@ -1,3 +1,5 @@
+We compare our practical FTPL variant with existing methods under cardinality and graphic matroid constraints. Each experiment uses **500,000 rounds and 80 paired test seeds**. Parameters are selected on eight separate development seeds.
+
 ## Shared setting
 
 Each round uses a weighted coverage function:
