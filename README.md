@@ -19,7 +19,7 @@ w_{t,e}=\mu_{t,e}\left[1+0.02 clip(G_{t,e},-3,3)\right],
 \qquad G_{t,e}\sim\mathcal N(0,1).
 $$
 
-Before clipping, the standard deviation is 2% of the mean; clipping limits fluctuations to $\pm6\%$. This randomness applies on **every round**, including periods with fixed means. A fixed normalizer $Z=1.00001\times1.06\sum_e\mu_{t,e}$ keeps $f_t(U)<1$ for the entire ground set $U$. The total feature mean is constant over time, so $Z$ is constant within each experiment. There is no additional observation noise or feedback amplification: each method receives the exact value of its selected set, with one bandit observation per round. Methods share the same function sequence for each seed; the targets, weights, and drift schedule are not revealed to them.
+Before clipping, the standard deviation is 2% of the mean; clipping limits fluctuations to $\pm6\%$. This randomness applies on **every round**, including periods with fixed means. A fixed normalizer $Z=1.00001\times1.06\sum_e\mu_{t,e}$ keeps $f_t(U)<1$ for the entire ground set $U$. The total feature mean is constant over time, so $Z$ is constant within each experiment. Methods share the same function sequence for each seed; the targets, weights, and drift schedule are not revealed to them.
 
 ### Smooth changes in the objective
 
